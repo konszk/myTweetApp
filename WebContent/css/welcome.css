@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    font-family: "Segoe UI","Yu Gothic UI";
+}
+
+.contents {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+h2 {
+    padding: 30px 25px 30px 25px;
+    margin: 0;
+}
+
+.subtitle {
+    color: #ffffff;
+    margin: 0;
+}
+
+.subtitle:link {
+    color: #ffffff;
+}
+
+.side-menu {
+    background-color: rgb(74,21,75);
+    min-width: 200px;
+    max-width: 200px;
+    width: 20%;
+    height: 100%;
+}
+
+.message-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+.message {
+    text-align: center;
+    margin: auto;
+    width: 100%;
+}
+
+.message p {
+    margin: 0;
+    font-size: 54px;
+}
+
+.message a {
+    font-size: 32px;
+}
+
+.message a:link {
+    color: grey;
+}
+
+.message a:visited {
+    color: grey;
+}
+
+
+.main-nav {
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+#nav-title {
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+
+.item {
+    margin-bottom: 5px;
+    padding: 2px 20px 2px 20px;
+}
+
+.item a {
+    width: 100%;
+}
+
+#nav-title {
+    color: #B9B9B9;
+}
+
+.item a:link {
+    color: #B9B9B9;
+}
+
+.item a:visited {
+    color: #B9B9B9;
+}
+
+#home {
+    background-color: #3689C6;
+}
+
+#home a:link {
+    color: #ffffff;
+}
+
+#home a:visited {
+    color: #ffffff;
+}
+
+.item a:hover {
+    transition: 0.4s;
+    color: #ffffff;
+}
+
+.side-menu a {
+    text-decoration: none;
+    display: block;
+}
